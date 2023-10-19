@@ -79,7 +79,7 @@ const Page = () => {
       <div className="flex justify-between p-6">
         <div className="flex items-center">
           <div className="mx-auto sm:mx-0 w-[150px] sm:w-[200px]">
-            <Image src={Logo} />
+            <Image src={Logo} alt="logo"/>
           </div>
         </div>
         <div className="flex items-center gap-6 text-[#a6a6a6]">
@@ -105,7 +105,7 @@ const Page = () => {
           Create your ideal website without the stress of programming. 🔥
         </p>
         <p className="text-[16px] text-[#ADADAD]">
-          You don't need any programming knowledge. Create your ideal website easily, with a smooth and effective procedure that conserves both time and energy.
+          You don&apos;t need any programming knowledge. Create your ideal website easily, with a smooth and effective procedure that conserves both time and energy.
         </p>
         <div className="flex justify-center gap-4 mt-4">
           {loginBtnVisible ? (
@@ -179,6 +179,7 @@ const Page = () => {
       <div className="m-auto w-max">
         <Image
           src={tradeImg}
+          alt="image"
           className="w-[722px] h-[390px] max-[750px]:w-[318px] max-[750px]:h-[175px]"
         />
       </div>
@@ -196,7 +197,7 @@ const Page = () => {
           </div>
         </div>
         <div className="w-[50%] max-[964px]:w-[100%]">
-          <Image src={sideTrade} className="max-[964px]:w-[100%]" />
+          <Image src={sideTrade} alt="image" className="max-[964px]:w-[100%]" />
         </div>
       </div>
       <div>
@@ -210,7 +211,7 @@ const Page = () => {
         <div className="flex my-4 max-[914px]:flex-wrap">
           <div className="w-[33.33%] max-[914px]:w-[50%] max-[480px]:w-[100%] p-2">
             <div className="bg-[#101010] rounded-3xl p-6">
-              <Image src={pic2} className="w-[335px] h-[140px] m-auto" />
+              <Image src={pic2} alt="image" className="w-[335px] h-[140px] m-auto" />
               <p className="text-white mt-2 text-center text-lg font-semibold">
                 Always available.
               </p>
@@ -222,7 +223,7 @@ const Page = () => {
           </div>
           <div className="w-[33.33%] max-[914px]:w-[50%] max-[480px]:w-[100%] p-2">
             <div className="bg-[#101010] rounded-3xl p-6">
-              <Image src={pic1} className="w-[335px] h-[140px] m-auto" />
+              <Image src={pic1} alt="image" className="w-[335px] h-[140px] m-auto" />
               <p className="text-white mt-2 text-center text-lg font-semibold">
                 Actionable insights.
               </p>
@@ -233,7 +234,7 @@ const Page = () => {
           </div>
           <div className="w-[33.33%] max-[914px]:w-[50%] max-[480px]:w-[100%] p-2">
             <div className="bg-[#101010] rounded-3xl p-6">
-              <Image src={pic3} className="w-[335px] h-[140px] m-auto" />
+              <Image src={pic3} alt="image" className="w-[335px] h-[140px] m-auto" />
               <p className="text-white mt-2 text-center text-lg font-semibold">
                 Efficient workflows.
               </p>
