@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+button.btn-close {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+button.btn.btn-danger {
+    background-color: #dc3545 !important;
+}
+
+button.btn.btn-dark {
+    background-color: #000000 !important;
+}
+
+
+.spinner-border {
+    display: inline-block !important;
+    width: 50px !important;
+    color: #121c2e !important;
+    position: fixed !important;
+    top: 50% !important;
+    height: 50px !important;
+    left: 50% !important;
+    vertical-align: -0.125em !important;
+    background-color: currentColor !important;
+    border-radius: 50% !important;
+    -webkit-animation: .75s linear infinite spinner-grow !important;
+    animation: .75s linear infinite spinner-grow !important;
+}
+
+.modal-header, .modal-footer{
+    border: none !important;
+}
+
